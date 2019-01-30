@@ -35,7 +35,7 @@ __single underscores__
 > $$
 > 
 
-![test image](..\img\test.jpg)
+![test image](TIL\img\test.jpg)
 
 <div class=pull-right>test염
 
