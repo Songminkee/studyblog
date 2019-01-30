@@ -11,7 +11,28 @@
     2<br>
     3
     4
-    여기는 html 태그
+    여기는 html 태그,div
+</div>
+
+<p>
+    <img src="..\img\test.jpg" align="right">
+    <pre>
+    마크업 무시하고
+그대로 보여줌
+    요래
+    </pre>
+    test1
+    2<br>
+    3
+    4
+    여기는 html 태그,p
+</p>
+
+
+
+
+
+
 
 아래는 마크다운, 자동으로 가운데 정렬
 
