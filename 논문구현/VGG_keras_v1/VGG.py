@@ -35,11 +35,11 @@ class VGG_Net:
 
     def VGG_Classifier(self,feature):
         model = feature
-        model.add(Dropout(0.5))
         model.add(Flatten())
         model.add(Dense(4096, input_dim=25088, activation='relu'))
         model.add(Dropout(0.5))
         model.add(Dense(4096, input_dim=4096, activation='relu'))
+        model.add(Dropout(0.5))
         model.add(Dense(1000, input_dim=4096, activation='softmax'))
 
         return model
