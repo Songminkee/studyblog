@@ -1,3 +1,4 @@
-*,unk
+*.unk
 *.xml
+.idea/
 
