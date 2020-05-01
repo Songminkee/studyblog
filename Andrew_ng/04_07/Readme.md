@@ -16,7 +16,7 @@
 
 #### 신경망을 이해하기 위해 다음과 같이 1차 함수 형태로 나타 낼 수 있다.
 
-<img src="../../picture/andrew_0407_1.jpg" style="zoom: 67%;" />
+<img src="../../picture/andrew_0407_1.jpg" style="zoom: 33%;" />
 
 
 
@@ -24,13 +24,13 @@
 
 #### 신경망의 목적은 오차가 최소가 되는 파라미터를 찾는 것이다. 오차를 J 라고 했을 때 이 신경망의 최종 목적은 다음과 같다.
 
-<img src="../../picture/andrew_0407_2.jpg" style="zoom: 80%;" />
+<img src="../../picture/andrew_0407_2.jpg" style="zoom: 33%;" />
 
 #### 함수 J의 결과값이 가장 작은 theta 0, theta1을 찾는 것이다. 오차 J를 Cost function 혹은 Loss function이라고 한다. 강의에는 J로 표기하지만 논문에 따라 다르며 가장 많이 보이는 것은 Loss의 L을 따온 표기이다.
 
 #### 비용 함수의 방법은 실제로 다양하며 영상에서는 가장 쉽게 사용이 가능한 Mean squared error function에 대해 소개했다. 식은 다음과 같다.
 
-<img src="../../picture/andrew_0407_3.jpg" style="zoom: 80%;" />
+<img src="../../picture/andrew_0407_3.jpg" style="zoom: 33%;" />
 
 #### 영상에 나온 theta 값들에 따른 J 값이다. 하지만 Mean squared error를 사용했을 때는 theta0 의 영향이 너무 작아 쌍곡선 형태를 볼 수 없다. 
 
