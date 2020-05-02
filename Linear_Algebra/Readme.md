@@ -132,7 +132,7 @@ v와 v'의 관계를 나타내보자.
 
 하지만 shape에 집중하게 되면 아래와 같이 가능하다.
 
-<img src="../picture/linear algebra_1.jpg" width="280" height="180">
+<img src="../picture/la_ios_1.jpg" width="280" height="180">
 
 
 
