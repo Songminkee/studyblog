@@ -1,3 +1,11 @@
+---
+title:"upload_list"
+data:2020-05-02 21:40:56
+categories: Linear algebra
+---
+
+
+
 # LIST
 
 * ##### [좌표 변환과 행렬](#transformation-and-matrix)
@@ -36,7 +44,7 @@
 
 다음과 같이 2쌍의 기저(e,e')를 사용해 벡터 v를 다음 두 가지로 표현이 가능한 경우
 
-<img src="../picture/la_tam_0.jpg" height="40" width="300">
+<img src="../../picture/la_tam_0.jpg" height="40" width="300">
 
 v와 v'의 관계를 나타내보자.
 
