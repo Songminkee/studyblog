@@ -5,11 +5,13 @@ category: linear_algebra
 layout: post
 ---
 
-### [선형대수 LIST](https://songminkee.github.io//linear_algebra/2020/05/02/list.html)
+[선형대수 LIST로 가기](https://songminkee.github.io//linear_algebra/2020/05/02/list.html)
 
+ 
 
+  
 
- <h1><b>Transpose Matrix</b></h1>
+ <h2><b>Transpose Matrix</b></h2>
 
 <h3><b>표기법</b></h3>
 
