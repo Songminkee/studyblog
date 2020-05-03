@@ -2,6 +2,7 @@
 title:"upload_list"
 data:2020-05-02 21:40:56
 categories: Linear algebra
+layout: post
 ---
 
 
