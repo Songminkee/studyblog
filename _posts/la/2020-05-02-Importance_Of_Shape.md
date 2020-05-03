@@ -1,4 +1,5 @@
 ---
+
 title: Shape의 중요성
 author: Monch
 category: linear_algebra
@@ -13,15 +14,25 @@ layout: post
 
  <h2><b>Importance of Shape</b></h2>
 
-<h3><b>행렬 계산을 할 때 크기에 주목을 해야 한다!!</b></h3>
 
-<h3><b>아래의 예시를 보며 맘에 새기자</b></h3>
 
  
 
+<h4><b>행렬 계산을 할 때 크기에 주목을 해야 한다!!</b></h4>
+
+<h4><b>아래의 예시를 보며 맘에 새기자</b></h4>
+
+
+
+  
+
 <h3><b>ex1)</b></h3>
 
-<h4><b>Q.<img src="{{'assets/picture/x.jpg' | relative_url}}" height="30" width="30">와<img src="{{'assets/picture/v.jpg' | relative_url}}" height="27" width="27">는 각각 n차원의 열 벡터(혹은 종 벡터)일 때, <img src="{{'assets/picture/la_ios_0.jpg' | relative_url}}" height="30" width="180">를 계산해라.</b></h4>
+<h3><b>Q.<img src="{{'assets/picture/x.jpg' | relative_url}}" height="30" width="30">와<img src="{{'assets/picture/v.jpg' | relative_url}}" height="27" width="27">는 각각 n차원의 열 벡터(혹은 종 벡터)일 때, <img src="{{'assets/picture/la_ios_0.jpg' | relative_url}}" height="30" width="180">를 계산해라.</b></h3>
+
+
+
+   
 
 <h4><b>A.</b></h4>
 

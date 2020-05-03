@@ -13,7 +13,9 @@ layout: post
 
  <h2><b>Determinant</b></h2>
 
-<h3><b>표기법</b></h3>
+ 
+
+<h4><b>표기법</b></h4>
 
 - <img src="{{'assets/picture/la_de_0.jpg' | relative_url}}" height="25" width="55">  
 
@@ -21,7 +23,7 @@ layout: post
 
   
 
-<h3><b>성질</b></h3>
+<h4><b>성질</b></h4>
 
 - <img src="{{'assets/picture/la_de_3.jpg' | relative_url}}" height="25" width="80">  
 
@@ -69,7 +71,7 @@ layout: post
 
 
 
-<h3><b>특징</b></h3>
+<h4><b>특징</b></h4>
 
 - ##### 실수 행렬의 행렬식은 실수이다. 복소 행렬의 행렬식은 일반적으로 복소수이다.
 
