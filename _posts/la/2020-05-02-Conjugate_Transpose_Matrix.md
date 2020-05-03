@@ -13,6 +13,10 @@ layout: post
 
  <h2><b>conjugate Transpose Matrix</b></h2>
 
+
+
+ 
+
 <h3><b>표기법</b></h3>
 
 -  <img src="{{'assets/picture/la_ctm_0.jpg' | relative_url}}" height="25" width="40"> 
