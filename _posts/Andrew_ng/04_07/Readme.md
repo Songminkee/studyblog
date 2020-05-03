@@ -1,0 +1,54 @@
+## Linear regression with one variable
+
+* ### 용어
+
+  * ##### Supervised learning (감독 학습) :  자료의 정확한 답이 주어진 학습
+
+  * ##### Unsupervised learning (비 감독 학습) : 자료의 정확히 주어지지 않는 학습 (형태에 따라 다양함)
+
+  * ##### Regression  (회귀) : 실수 값을 갖는 출력을 예측하는 문제 (분류와 함께 신경망의 대표적인 문제)
+
+  * ##### Classification (분류) : 이산 값(Discrete-value)으로 분류되는 문제 
+
+  * ##### Univariate linear regression (단 변량 선형 회귀) : 변수가 하나인 선형 회귀
+
+ 
+
+#### 신경망을 이해하기 위해 다음과 같이 1차 함수 형태로 나타 낼 수 있다.
+
+<img src="../../picture/andrew_0407_1.jpg" width="280" height="150" />
+
+
+
+## Cost function ~ Cost function institution
+
+#### 신경망의 목적은 오차가 최소가 되는 파라미터를 찾는 것이다. 오차를 J 라고 했을 때 이 신경망의 최종 목적은 다음과 같다.
+
+<img src="../../picture/andrew_0407_2.jpg" width="300" height="70" />
+
+#### 함수 J의 결과값이 가장 작은 theta 0, theta1을 찾는 것이다. 오차 J를 Cost function 혹은 Loss function이라고 한다. 강의에는 J로 표기하지만 논문에 따라 다르며 가장 많이 보이는 것은 Loss의 L을 따온 표기이다.
+
+#### 비용 함수의 방법은 실제로 다양하며 영상에서는 가장 쉽게 사용이 가능한 Mean squared error function에 대해 소개했다. 식은 다음과 같다.
+
+<img src="../../picture/andrew_0407_3.jpg" width="350" height="70" />
+
+#### 영상에 나온 theta 값들에 따른 J 값이다. 하지만 Mean squared error를 사용했을 때는 theta0 의 영향이 너무 작아 쌍곡선 형태를 볼 수 없다. 
+
+<img src="../../picture/andrew_0407_4.jpg" />
+
+
+
+## 첨부 코드
+
+* #### Requirement
+
+  * ##### numpy
+
+  * ##### matplotlib
+
+  * ##### sklearn
+
+  * ##### pandas
+
+#### 영상에서는 포틀랜드의 집 가격이라는 데이터 셋이 있는지 잘 모르겠다. 찾아봤지만 부동산 내용이 많아 유명한 Boston 집가격 데이터 셋으로 실험을 했다. 식은 위에 나온 수식들을 이용했다.
+
