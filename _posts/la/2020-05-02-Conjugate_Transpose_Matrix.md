@@ -5,19 +5,19 @@ category: linear_algebra
 layout: post
 ---
 
-### [LIST](https://songminkee.github.io//linear_algebra/2020/05/02/list.html)
+### [선형대수 LIST](https://songminkee.github.io//linear_algebra/2020/05/02/list.html)
 
 
 
-# Conjugate Transpose Matrix
+ <h1><b>conjugate Transpose Matrix</b></h1>
 
-#### 표기법
+<h3><b>표기법</b></h3>
 
 -  <img src="{{'assets/picture/la_ctm_0.jpg' | relative_url}}" height="25" width="40"> 
 
 
 
-#### 성질
+<h3><b>성질</b></h3>
 
 - <img src="{{'assets/picture/la_ctm_1.jpg' | relative_url}}" height="28" width="100">  
 - <img src="{{'assets/picture/la_ctm_2.jpg' | relative_url}}" height="30" width="100">  
@@ -26,7 +26,7 @@ layout: post
 
 
 
-#### ex)
+<h3><b>ex)</b></h3>
 
 <img src="{{'assets/picture/la_ctm_5.jpg' | relative_url}}" height="80" width="415">
 

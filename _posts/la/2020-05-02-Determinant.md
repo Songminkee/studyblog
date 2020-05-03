@@ -5,21 +5,21 @@ category: linear_algebra
 layout: post
 ---
 
-### [LIST](https://songminkee.github.io//linear_algebra/2020/05/02/list.html)
+### [선형대수 LIST](https://songminkee.github.io//linear_algebra/2020/05/02/list.html)
 
 
 
-# Determinant
+ <h1><b>Determinant</b></h1>
 
-#### 표기법
+<h3><b>표기법</b></h3>
 
 - <img src="{{'assets/picture/la_de_0.jpg' | relative_url}}" height="25" width="55">  
 
 - ##### <img src="{{'assets/picture/la_de_1.jpg' | relative_url}}" height="30" width="35">, 실수의 <img src="{{'assets/picture/la_de_2.jpg' | relative_url}}" height="23" width="24">와는 다르게 결과값이 음수 일 수 있다.
 
+  
 
-
-#### 성질
+<h3><b>성질</b></h3>
 
 - <img src="{{'assets/picture/la_de_3.jpg' | relative_url}}" height="25" width="80">  
 
@@ -67,7 +67,7 @@ layout: post
 
 
 
-#### 특징
+<h3><b>특징</b></h3>
 
 - ##### 실수 행렬의 행렬식은 실수이다. 복소 행렬의 행렬식은 일반적으로 복소수이다.
 

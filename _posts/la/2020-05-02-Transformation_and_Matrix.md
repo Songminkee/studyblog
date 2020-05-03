@@ -5,19 +5,21 @@ category: linear_algebra
 layout: post
 ---
 
-### [LIST](https://songminkee.github.io//linear_algebra/2020/05/02/list.html)
+### [선형대수 LIST](https://songminkee.github.io//linear_algebra/2020/05/02/list.html)
 
 
 
-# Transformation and Matrix
+ 
 
-- ##### 좌표 변환은 '정방행렬 A를 곱한다'라는 형태로 쓸 수 있다. 단, A에는 역행렬이 존재한다.
+<h1><b>Transformation and Matrix</b></h1>
 
-- ##### 역행렬을 지니는 정방행렬 A를 곱하는 것은 '좌표 변환'이라고 해석할 수 있다.
+- ##### <b>좌표 변환은 '정방행렬 A를 곱한다'라는 형태로 쓸 수 있다. 단, A에는 역행렬이 존재한다.</b>
+
+- ##### <b>역행렬을 지니는 정방행렬 A를 곱하는 것은 '좌표 변환'이라고 해석할 수 있다.</b>
 
 
 
-#### ex) 
+<h3><b>ex)</b></h3>
 
 다음과 같이 2쌍의 기저(e,e')를 사용해 벡터 v를 다음 두 가지로 표현이 가능한 경우
 
@@ -49,4 +51,3 @@ v와 v'의 관계를 나타내보자.
 
 <img src="{{'assets/picture/la_tam_5.jpg' | relative_url}}" height="80" width="100">
 
-- ##### 
