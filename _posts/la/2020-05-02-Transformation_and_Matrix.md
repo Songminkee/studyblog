@@ -39,7 +39,7 @@ v와 v'의 관계를 나타내보자.
 
 이를 행렬 형태로 나타내면
 
-<img src="{{'assets/picture/la_tam_3.jpg' | relative_url}}.jpg" height="50" width="200">
+<img src="{{'assets/picture/la_tam_3.jpg' | relative_url}}" height="50" width="200">
 
 혹은
 

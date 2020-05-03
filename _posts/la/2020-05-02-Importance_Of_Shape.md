@@ -14,13 +14,13 @@ layout: post
 
  <h2><b>Importance of Shape</b></h2>
 
-<br><br>
+<br>
 
 <h4><b>행렬 계산을 할 때 크기에 주목을 해야 한다!!</b></h4>
 
 <h4><b>아래의 예시를 보며 맘에 새기자</b></h4>
 
-
+<br>
 
   
 
