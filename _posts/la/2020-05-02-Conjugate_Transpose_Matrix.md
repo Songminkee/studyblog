@@ -1,0 +1,34 @@
+---
+title: 공역전치행렬
+author: Monch
+category: linear_algebra
+layout: post
+---
+
+### [LIST](https://songminkee.github.io//linear_algebra/2020/05/02/list.html)
+
+
+
+# Conjugate Transpose Matrix
+
+#### 표기법
+
+-  <img src="{{'assets/picture/la_ctm_0.jpg' | relative_url}}" height="25" width="40"> 
+
+
+
+#### 성질
+
+- <img src="{{'assets/picture/la_ctm_1.jpg' | relative_url}}" height="28" width="100">  
+- <img src="{{'assets/picture/la_ctm_2.jpg' | relative_url}}" height="30" width="100">  
+- <img src="{{'assets/picture/la_ctm_3.jpg' | relative_url}}" height="28" width="115">  
+- <img src="{{'assets/picture/la_ctm_4.jpg' | relative_url}}" height="27" width="150">  
+
+
+
+#### ex)
+
+<img src="{{'assets/picture/la_ctm_5.jpg' | relative_url}}" height="80" width="415">
+
+
+
