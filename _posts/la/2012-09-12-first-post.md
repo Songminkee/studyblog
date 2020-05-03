@@ -1,5 +1,5 @@
 ---
-title: First Post
+title: First!
 author: Chris
 category: linear_algebra
 layout: post
