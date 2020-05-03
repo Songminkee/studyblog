@@ -13,17 +13,15 @@ layout: post
 
  <h2><b>conjugate Transpose Matrix</b></h2>
 
+<br>
 
-
- 
-
-<h3><b>표기법</b></h3>
+<h4><strong>표기법</strong></h4>
 
 -  <img src="{{'assets/picture/la_ctm_0.jpg' | relative_url}}" height="25" width="40"> 
 
 
 
-<h3><b>성질</b></h3>
+<h4><strong>성질</strong></h4>
 
 - <img src="{{'assets/picture/la_ctm_1.jpg' | relative_url}}" height="28" width="100">  
 - <img src="{{'assets/picture/la_ctm_2.jpg' | relative_url}}" height="30" width="100">  
@@ -32,7 +30,7 @@ layout: post
 
 
 
-<h3><b>ex)</b></h3>
+<h4><strong>ex)</strong></h4>
 
 <img src="{{'assets/picture/la_ctm_5.jpg' | relative_url}}" height="80" width="415">
 

@@ -13,13 +13,15 @@ layout: post
 
  <h2><b>Transpose Matrix</b></h2>
 
-<h3><b>표기법</b></h3>
+<br>
+
+<h4><b>표기법</b></h4>
 
 - <img src="{{'assets/picture/la_tm_0.jpg' | relative_url}}" height="30" width="40"> 
 
   
 
-<h3><b>성질</b></h3>
+<h4><b>성질</b></h4>
 
 - <img src="{{'assets/picture/la_tm_1.jpg' | relative_url}}" height="30" width="150"> 
 -  <img src="{{'assets/picture/la_tm_2.jpg' | relative_url}}" height="25" width="150"> 

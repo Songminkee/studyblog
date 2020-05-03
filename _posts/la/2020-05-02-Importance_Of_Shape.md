@@ -14,9 +14,7 @@ layout: post
 
  <h2><b>Importance of Shape</b></h2>
 
-
-
- 
+<br><br>
 
 <h4><b>행렬 계산을 할 때 크기에 주목을 해야 한다!!</b></h4>
 
@@ -26,9 +24,9 @@ layout: post
 
   
 
-<h3><b>ex1)</b></h3>
+<h4><b>ex1)</b></h4>
 
-<h3><b>Q.<img src="{{'assets/picture/x.jpg' | relative_url}}" height="30" width="30">와<img src="{{'assets/picture/v.jpg' | relative_url}}" height="27" width="27">는 각각 n차원의 열 벡터(혹은 종 벡터)일 때, <img src="{{'assets/picture/la_ios_0.jpg' | relative_url}}" height="30" width="180">를 계산해라.</b></h3>
+<h4><b>Q.<img src="{{'assets/picture/x.jpg' | relative_url}}" height="30" width="30">와<img src="{{'assets/picture/v.jpg' | relative_url}}" height="27" width="27">는 각각 n차원의 열 벡터(혹은 종 벡터)일 때, <img src="{{'assets/picture/la_ios_0.jpg' | relative_url}}" height="30" width="180">를 계산해라.</b></h4>
 
 
 
@@ -46,7 +44,7 @@ layout: post
 
 
 
-<h3><b>ex2)</b></h3>
+<h4><b>ex2)</b></h4>
 
 <h4><b>Q. A는 n차 정방행렬, b와 c는 n차 열 벡터(혹은 종 벡터) 일 때, 다음이 성립함을 증명해라.</b></h4>
 
