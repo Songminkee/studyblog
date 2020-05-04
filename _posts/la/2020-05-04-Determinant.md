@@ -91,7 +91,7 @@ det A = \sum_{i_{1},...,i_{n}} \epsilon_{i_{1}...i_{n}}a_{i_{1}1}...a_{i_{n}n}
 $$
 여기서 랭크 $$\epsilon_{ijk}$$는 다음과 같이 정의한다.
 
-- $$\epsilon_{123}=1$$
+- $$\epsilon_{123}=1$$.
 - 첨자가 바뀌면 -1을 곱한 것과 같다.
   $$\epsilon_{213}=-\epsilon_{123}=-1$$
   $$\epsilon_{312}=-\epsilon_{213}=\epsilon_{123}=1$$
