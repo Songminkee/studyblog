@@ -41,28 +41,28 @@ $$
   (1) & \frac{3}{2} & \frac{3}{2} & \frac{9}{2} \\
   3 & 4 & 2 & 9 \\
   -2&-2&3&2
-\end{array} \right)\left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
-\Rightarrow 
+\end{array} \right) \left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
+\Rightarrow
 \left(
   \begin{array}{ccc|c}
   1 & \frac{3}{2} & \frac{3}{2} & \frac{9}{2} \\
   (0) & -\frac{1}{2} & -\frac{5}{2} & -\frac{9}{2} \\
   (0)&1&6&11
-\end{array} \right)\left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
+\end{array} \right) \left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
 \Rightarrow 
 \left(
   \begin{array}{ccc|c}
   1 & \frac{3}{2} & \frac{3}{2} & \frac{9}{2} \\
   0 & (1) & 5& 9 \\
   0&1&6&11
-\end{array} \right)\left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
+\end{array} \right) \left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
 \Rightarrow 
 \left(
   \begin{array}{ccc|c}
   1 & \frac{3}{2} & \frac{3}{2} & \frac{9}{2} \\
   0 & 1 & 5& 9 \\
   0&(0)&1&2
-\end{array} \right)\left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
+\end{array} \right)\left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
 $$
 여기까지의 과정을 가우스 소거법이라고 한다. 가우스 요르단(Gauss jordan) 소거법은 여기서 한단계 더 나아간다.
 $$
@@ -71,30 +71,30 @@ $$
   1 & \frac{3}{2} & \frac{3}{2} & \frac{9}{2} \\
   0 & 1 & 5& 9 \\
   0&(0)&1&2
-\end{array} \right)\left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
+\end{array} \right) \left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
 \Rightarrow 
 \left(
   \begin{array}{ccc|c}
   1 & \frac{3}{2} & \frac{3}{2} & \frac{9}{2} \\
   0 & 1 & (0)& -1 \\
   0&0&1&2
-\end{array} \right)\left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
+\end{array} \right) \left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
 \Rightarrow 
 \left(
   \begin{array}{ccc|c}
   1 & (0) & \frac{3}{2} & 6 \\
   0 & 1 & 0& -1 \\
   0&0&1&2
-\end{array} \right)\left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
+\end{array} \right) \left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
 \Rightarrow 
 \left(
   \begin{array}{ccc|c}
   1 & 0 & (0) & 3 \\
   0 & 1 & 0& -1 \\
   0&0&1&2
-\end{array} \right)\left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
+\end{array} \right) \left(\begin{array}{}x_1\\x_2\\ x_3 \\\hline 1 \end{array}\right)=\begin{pmatrix}0\\0\\0\end{pmatrix}\\
 $$
-이렇게 각 행이 바로 각 $$x_i$$의 해를 나타낸다.
+이렇게 각 행이 바로 각 $$x_{i}$$의 해를 나타낸다.
 
 
 
