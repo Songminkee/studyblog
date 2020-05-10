@@ -1,2 +1,3 @@
 User-agent: *
-Allow: 
+Allow: \
+Sitemap: https://songminkee.github.io/sitemap.xml
