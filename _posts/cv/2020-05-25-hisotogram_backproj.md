@@ -21,23 +21,6 @@ $$
 
 
 
-<h3>코드 구현</h3>
-
-
-
-<br>
-
-식은 다음과 같다.
-$$
-c(l_{in}) = \sum_{l=0}^{l_{in}} \hat{h}(l) \\
-l_{out} = T(l_{in}) = round(c(l_{in}) \times (L-1))
-$$
-여기서 $$c(.)$$는 누적 히스토그램을 나타내고 $$round(.)$$는 반올림 연산을 나타낸다. $$\hat{h}$$는 정규화 히스토그램을 나타낸다.
-어떤 명암 $$l$$을 기준으로 생각했을 때, $$l$$보다 작은 명암을 갖는 화소의 비율은 $$1/L$$이어야 한다.
-즉, 누적 히스토그램은 비율이 $$1/L$$인 점을 $$l$$로 매핑해준다.
-
-
-
 <h3>코드구현</h3>
 
 [코드링크](https://github.com/Songminkee/computer_vision/blob/master/histogram_backprojection.ipynb)
