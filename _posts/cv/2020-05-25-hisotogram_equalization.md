@@ -5,7 +5,7 @@ category: cv
 layout: post
 ---
 
-
+[목록으로가기](https://songminkee.github.io/cv/2030/05/03/list.html)
 
 <h3>히스토그램 평활화</h3>
 
@@ -26,6 +26,8 @@ $$
 
 
 <h3>코드구현</h3>
+
+[코드링크](https://github.com/Songminkee/computer_vision/blob/master/Histogram_Equalization.ipynb)
 
 먼저 사진을 확인해보자. 이번 구현에서는 다음과 같이 어두운 사진을 히스토그램 평활화로 조금 더 밝게 만들것이다.
 
