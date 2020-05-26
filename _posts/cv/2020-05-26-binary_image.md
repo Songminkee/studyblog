@@ -115,8 +115,10 @@ $$
 
 <h3>코드 구현</h3>
 
+[코드링크](https://github.com/Songminkee/computer_vision/blob/master/binary_image.ipynb)
+
 위에서 이진화로 이미 정규화된 히스토그램을 그렸다. 위 코드에서 이어서 구현을 한다.
-먼저 $$mu$$를 구하고 나머지 값들을 초기화해 준다.
+먼저 $$\mu$$를 구하고 나머지 값들을 초기화해 준다.
 
 ```python
 mu = 0

@@ -15,7 +15,7 @@ Opencv를 이용해 이미지를 불러오는 경우 0~255로 명암값을 나�
 
 <h3>코드 구현</h3>
 
-[코드링크](https://github.com/Songminkee/computer_vision/blob/master/Histogram_Equalization.ipynb)
+[코드링크](https://github.com/Songminkee/computer_vision/blob/master/histogram.ipynb)
 
 코드의 구현은 간단하다. 각 픽셀의 노출 횟수를 카운트하면 된다.
 예제는 유명한 레나사진을 사용할 것이다. OpenCV의 함수를 이용하면 bgr 순서로 채널이 되어 있기때문에 cv2의 imshow를 이용하는 게 아닐때는 rgb로 순서를 바꾸는게 좋다.
