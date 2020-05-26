@@ -5,11 +5,9 @@ category: linear_algebra
 layout: post
 ---
 
-[선형대수 LIST로 가기](https://songminkee.github.io//linear_algebra/2030/05/03/list.html)
+[선형대수 LIST로 가기](https://songminkee.github.io/linear_algebra/2030/05/03/list.html)
 
  
-
-  
 
  <h2><b>conjugate Transpose Matrix</b></h2>
 
