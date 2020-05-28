@@ -39,7 +39,6 @@ $$
 세 번째 식은 어두운 곳은 밝게 밝은 곳은 어둡게 반전시킨다.
 그리고 이들 모두 선형 연산(linear operation)에 속한다.
 
-
 $$
 f_{out}(j,i) = (L-1) \times (\hat{f}(j,i))^{\gamma} \\
 이때, \hat{f}(j,i) = \frac{f(j,i)}{L-1}
@@ -448,6 +447,8 @@ plt.show()
 
 또 다른 유명한 에지보존 스무딩 필터 중 양방향 필터(Bilateral filter)가 있다. 양방향 필터는 두 점 사이의 거리에 대한 가우시안과 두 점의 픽셀 값 차이에 의한 가우시안 값을 고려하는 방식이다. 두 점 사이의 거리에 대한 가우시안은 가우시안 필터와 동일하다. 다른 가우시안 값은 두 점의 픽셀 값 차이가 심한 에지 영역에서 0에 가깝기 때문에 에지 근방에서는 에지가 보존된다.  
 식은 다음과 같다.
+
+
 $$
 g_{p} = \frac{1}{W_p} \sum_{q \in S}G_{\sigma_{s}}(\begin{Vmatrix}p-q \end{Vmatrix})G_{\sigma_r}(\begin{vmatrix}f_{p}-f_{q}\end{vmatrix})f_{q}
 $$
