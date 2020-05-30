@@ -23,7 +23,7 @@ layout: post
 모폴로지는 구조요소(Structurgin element)를 사용해 이진 영상에 있는 연결요소의 모양을 조작한다.
 다음의 그림은 몇 가지 대표적인 구조요소이다.
 
-<img src="{{'assets/picture/morphology_fig1.jpg' | relative_url}}"> 
+<img src="{{'assets/picture/morphology_fig1.jpg' | relative_url}}" height="100" width="500"> 
 
 모폴로지에서 구조요소는 집합으로 표현하는데, 값이 1인 요소만 집합에 속한다. 최우측에 있는 구조요소처럼 비대칭일수도있다.  
 
