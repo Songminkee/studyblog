@@ -144,19 +144,19 @@ def LOG_conv(img,filter,threshold=None):
     log_img=conv(img,filter).squeeze()
     if threshold == None:
         threshold = np.max(log_img)*0.05
-    w_img = np.pad(log_img[:,1:],((0,0),(0,1)))
-    e_img = np.pad(log_img[:,:-1],((0,0),(1,0)))
+    e_img = np.pad(log_img[:,1:],((0,0),(0,1)))
+    w_img = np.pad(log_img[:,:-1],((0,0),(1,0)))
     n_img = np.pad(log_img[:-1,:],((1,0),(0,0)))
     s_img = np.pad(log_img[1:, :], ((0,1), (0, 0)))
-    sw_img = np.pad(s_img[:,1:],((0,0),(0,1)))
-    nw_img = np.pad(n_img[:, 1:], ((0, 0), (0, 1)))
-    se_img = np.pad(s_img[:,:-1],((0,0),(1,0)))
-    ne_img = np.pad(n_img[:,:-1], ((0, 0), (1, 0)))
+    se_img = np.pad(s_img[:,1:],((0,0),(0,1)))
+    ne_img = np.pad(n_img[:, 1:], ((0, 0), (0, 1)))
+    sw_img = np.pad(s_img[:,:-1],((0,0),(1,0)))
+    nw_img = np.pad(n_img[:,:-1], ((0, 0), (1, 0)))
 
-    w_vs_e = np.int8(np.logical_and(np.absolute(w_img-e_img)>threshold,sign(w_img,e_img)))
-    s_vs_n = np.int8(np.logical_and(np.absolute(n_img - s_img) > threshold,sign(n_img,s_img)))
-    sw_vs_ne = np.int8(np.logical_and(np.absolute(sw_img - ne_img) > threshold,sign(sw_img,ne_img)))
-    nw_vs_se = np.int8(np.logical_and(np.absolute(nw_img - se_img) > threshold,sign(nw_img,se_img)))
+    w_vs_e = np.int8(np.logical_and(np.absolute(w_img-e_img)>=threshold,sign(w_img,e_img)))
+    s_vs_n = np.int8(np.logical_and(np.absolute(n_img - s_img) >= threshold,sign(n_img,s_img)))
+    sw_vs_ne = np.int8(np.logical_and(np.absolute(sw_img - ne_img) >= threshold,sign(sw_img,ne_img)))
+    nw_vs_se = np.int8(np.logical_and(np.absolute(nw_img - se_img) >= threshold,sign(nw_img,se_img)))
 
     return np.uint8(w_vs_e+s_vs_n+sw_vs_ne+nw_vs_se>=1)*255
 ```
