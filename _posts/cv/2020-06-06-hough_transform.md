@@ -1,5 +1,5 @@
 ---
-title: 허프 변환 (Hough tramsfpr,)
+title: 허프 변환 (Hough tramsform)
 author: Monch
 category: cv
 layout: post
