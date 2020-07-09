@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+
+<ul class="posts-list">
+  {% assign categories = page.categories%}
+{% for category in categories %}
+<h2>{{category}}</h2>
+  {% for post in site.categories[category] %}
+    <li>
+      <h3>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          <small>{{ post.date | date_to_string }}</small>
+        </a>
+      </h3>
+    </li>
+  {% endfor %}
+<br>
+{% endfor %}
+<br>
+</ul>
+
+{% unless page.content == '' %}
+  {{ content }}
+{% endunless %}

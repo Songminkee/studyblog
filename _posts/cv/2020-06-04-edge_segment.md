@@ -1,15 +1,11 @@
 ---
 title: 에지 segment
 author: Monch
-category: cv
+category: Computer Vision
 layout: post
 ---
 
-[목록으로가기](https://songminkee.github.io/cv/2030/05/03/list.html)
-
 [코드링크](https://github.com/Songminkee/computer_vision/blob/master/line_detection.ipynb)
-
-
 
 <h3>선분 검출</h3>
 

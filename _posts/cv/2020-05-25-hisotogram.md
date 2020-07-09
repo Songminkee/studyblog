@@ -1,7 +1,7 @@
 ---
 title: 히스토그램 (Histogram)
 author: Monch
-category: cv
+category: Computer Vision
 layout: post
 ---
 

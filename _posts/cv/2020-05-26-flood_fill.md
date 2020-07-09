@@ -1,11 +1,9 @@
 ---
 title: 범람 채움(Flood_fill)
 author: Monch
-category: cv
+category: Computer Vision
 layout: post
 ---
-
-[목록으로가기](https://songminkee.github.io/cv/2030/05/03/list.html)
 
 <h3>범람 채움(Flood_fill)</h3>
 

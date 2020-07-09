@@ -1,11 +1,9 @@
 ---
 title: 영교차 이론
 author: Monch
-category: cv
+category: Computer Vision
 layout: post
 ---
-
-[목록으로가기](https://songminkee.github.io/cv/2030/05/03/list.html)
 
 [코드링크](https://github.com/Songminkee/computer_vision/blob/master/zero_crossing.ipynb)
 
@@ -114,7 +112,7 @@ def LOG(sigma,plot=False):
 LOG(5.0,True)
 ```
 
-<img src="{{'assets/picture/log_filter.jpg' | relative_url}}">
+<img src="{{'assets/picture/log_filter_plot.jpg' | relative_url}}">
 
 LOG 필터의 모양을 보면 방향과 무관한 등방성(isotropic) 성질을 가진다. 이는 사람의 시각과 비슷한 성질이다.  
 멕시코 모자(Mexican hat)라는 별명으로 불리기도 하고 밀짚모자라고 부르는 사람도 있는 것 같다.  

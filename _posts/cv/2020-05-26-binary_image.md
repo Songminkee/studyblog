@@ -1,11 +1,9 @@
 ---
 title: 영상 이진화(Binarization)
 author: Monch
-category: cv
+category: Computer Vision
 layout: post
 ---
-
-[목록으로가기](https://songminkee.github.io/cv/2030/05/03/list.html)
 
 <h3>영상 이진화</h3>
 

@@ -1,13 +1,9 @@
 ---
 title: 지역 특징 검출의 기초
 author: Monch
-category: cv
+category: Computer Vision
 layout: post
 ---
-
-[목록으로가기](https://songminkee.github.io/cv/2030/05/03/list.html)
-
-
 
 <h3>특징 검출의 역사</h3>
 
