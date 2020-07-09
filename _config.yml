@@ -5,14 +5,14 @@ highlighter:      rouge
 # Setup
 title:            Monch
 description:      '개인 공부 블로그 입니다.'
-url:              https://songminkee.github.io/
-baseurl:          'studyblog'
+url:              https://songminkee.github.io
+baseurl:          '/studyblog'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
-avatar: assets/images/avatar1.jpg
+
 author:
   name:           'Song MinKi'
 
