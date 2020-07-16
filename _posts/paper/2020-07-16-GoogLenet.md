@@ -17,12 +17,13 @@ VGG와 마찬가지로 GoogLeNet에서는 NIN(Network in Network)[1]에서 소�
 
 <img src="{{'assets/picture/googlenet_flatten_fc.jpg' | relative_url}}">
 
-그런데 논문에서 나오는 수식은 다음과 같다.
+그런데 논문에서 나오는 수식은 다음과 같다.  
+
 $$
 f_{i,j,k_{1}}^1 = max({w_{k_1}^1}^T x_{i,j} + b_{k_{1}},0) \\
 ... \\
 
-f_{i,j,k_{n}}^1 = max({w_{k_n}^n}^T {f_{i,j}}^{n-1} + b_{k_{n}},0)
+f_{i,j,k_{n}}^n = max({w_{k_n}^n}^T {f_{i,j}}^{n-1} + b_{k_{n}},0)
 $$
 여기서 $$x_{i,j}$$는 i,j 위치에 있는 픽셀에 대한 값이고 f는 n번째 MLP에 의한 결과이다.  
 이 연산을 그림으로 표현하면 다음과 같다.
@@ -68,7 +69,7 @@ GoogLeNet을 검색하면 아래와 같은 사진이 많이 나오는데 구글�
 
 전체 구조는 다음과 같이 Stem, Inception module, Auxiliary classifiers, Output classifier 네 부분으로 나뉜다.
 
-<img src="{{'assets/picture/googlenet_architecture.jpg' | relative_url}}">
+<img src="{{'assets/picture/googlenet_architecture_detail.jpg' | relative_url}}">
 
 <h4>Stem</h4>
 
