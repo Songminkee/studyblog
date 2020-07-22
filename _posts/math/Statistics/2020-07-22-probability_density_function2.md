@@ -80,8 +80,9 @@ $$
 
 
 
-
 이제 야코비안을 구한다.
+
+
 $$
 \begin{pmatrix} Z \\ W\end{pmatrix} = \begin{pmatrix} \frac{\partial z}{\partial x} & \frac{\partial z}{\partial y} \\ \frac{\partial w}{\partial x} & \frac{\partial w}{\partial y}\end{pmatrix} \begin{pmatrix} X \\Y \end{pmatrix} \\
 \Rightarrow \begin{pmatrix} Z \\ W\end{pmatrix} = \begin{pmatrix} 2(e^{x-y}+xe^{x-y}) & -2xe^{x-y} \\1 & -1\end{pmatrix} \begin{pmatrix} X \\Y \end{pmatrix}
