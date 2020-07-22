@@ -18,7 +18,7 @@ layout: post
 | 주변분포           |               $$P(X=a) = \sum_{y} P(X=a,Y=y)$$               |     $$f_{X}(a) = \int^{\infty}_{-\infty}f_{X,Y}(a,y)dy$$     |
 | 조건부분포         | $$P(Y=b \mid X=a) \equiv \frac{P(X=a,Y=b)}{P(X=a)} \\ P(X=a,Y=b) = P(Y=b \mid X=a) P(X=a)$$ | $$f_{Y \mid X}(b \mid a) \equiv \frac{f_{X,Y}(a,b)}{f_{X}(a)} \\ f_{X,Y}(a,b) = f_{Y \mid X} (b \mid a)f_{X}(a)$$ |
 | 베이즈 공식        | $$P(X=a \mid Y=b) = \frac{P(Y=b \mid X=a)P(X=a)}{\sum_{x}P(Y=b \mid X=x)P(X=x)}$$ | $$f_{X \mid Y} (a \mid b) = \frac{f_{X \mid Y}(b \mid a)f_{X}(a)}{\int_{-\infty}^{\infty}f_{X \mid Y}(b \mid x)f_{X}(x)dx}$$ |
-| 독립성의 다른 표현 | $$P(Y=b \mid X=a)$$가 $$a$$와 상관없다. <br> $$P(Y=b \mid X=a) = P(Y=b)$$ <br>$$P(X=a, Y = 여러 가지)$$의 비가 $$a$$에 관계없이 일정하다.<br>$$P(X=a, Y=b) = P(X=a)P(Y=b)$$<br>$$P(X=a,Y=b) = g(a)h(b)$$의 형태 | $$f_{Y \mid X} (b \mid a)$$가 $$a$$와 상관없다.<br>$$f_{Y \mid X} (b \mid a) = f_{Y}(b)$$<br>$$f_{X,Y} (a, 여러가지)$$의 비가 $$a$$에 관계없이 일정하다. <br>$$f_{X,Y}(a,b) = f_{X}(a)f_{Y}(b)$$ <br>$$f_{X,Y}(a,b) = g(a)h(b)$$의 형태 |
+| 독립성의 다른 표현 | 1. $$P(Y=b \mid X=a)$$가 $$a$$와 상관없다. <br> 2. $$P(Y=b \mid X=a) = P(Y=b)$$ <br>3. $$P(X=a, Y = 여러 가지)$$의 비가 $$a$$에 관계없이 일정하다.<br>4. $$P(X=a, Y=b) = P(X=a)P(Y=b)$$<br>5. $$P(X=a,Y=b) = g(a)h(b)$$의 형태 | 1. $$f_{Y \mid X} (b \mid a)$$가 $$a$$와 상관없다.<br>2. $$f_{Y \mid X} (b \mid a) = f_{Y}(b)$$<br>3. $$f_{X,Y} (a, 여러가지)$$의 비가 $$a$$에 관계없이 일정하다. <br>4. $$f_{X,Y}(a,b) = f_{X}(a)f_{Y}(b)$$ <br>5. $$f_{X,Y}(a,b) = g(a)h(b)$$의 형태 |
 
 
 
@@ -32,7 +32,10 @@ f_{Y \mid X}(b \mid a) = f_{Y}(b)
 $$
 
 
+
 가 항상 어떠한 a와 b에서도 성립할 때, X와 Y는 독립이다. 또한 아래도 성립한다.
+
+
 $$
 f_{Y \mid X}(b \mid a) = \frac{f_{X,Y}(a,b)}{f_{X}(a)} \\
 \Rightarrow f_{X,Y}(a,b) = f_{X}(a)f_{Y}(b) \\
@@ -44,12 +47,15 @@ $$
 확률밀도함수의 변환 공식은 다음과 같다.
 
 
+
 $$
 f_{Z,W}(z,w) = \frac{1}{\begin{vmatrix} \partial (z,w) / \partial (x,y)\end{vmatrix}}f_{X,Y}(x,y) \ \ \ 단, z=g(x,y) , w=h(x,y)
 $$
 
 
+
 여기서 분모 부분은 야코비안이며 다음과 같이 정의된다.
+
 
 
 $$
@@ -67,6 +73,7 @@ A.
 먼저, X와 Y는 다음과 같이 나타낼 수 있다.
 
 
+
 $$
 X=\frac{Z}{2e^{-W}} , Y=\frac{W}{2e^{-W}}-W
 $$
@@ -81,7 +88,9 @@ $$
 $$
 
 
+
 그 다음 야코비안의 determinant를 구한다.
+
 
 
 $$
@@ -89,7 +98,9 @@ $$
 $$
 
 
+
 이제 이를 식에 대입하면
+
 
 
 $$
@@ -97,7 +108,9 @@ f_{Z,W} (z,w) = \frac{1}{\begin{vmatrix}-2e^{x-y} \end{vmatrix}}f_{X,Y}(\frac{z}
 $$
 
 
+
 마지막으로, z=6,w=0일 때, x와 y는 각각 3,3 이다. 따라서 식은 다음과 같이 완성된다.
+
 
 
 $$
@@ -105,4 +118,3 @@ f_{Z,W}(6,0)=\frac{1}{\begin{vmatrix}-2e^{3-3}\end{vmatrix}}f_{X,Y}(3,3)=\frac{1
 $$
 
 
- 
