@@ -13,17 +13,17 @@ layout: post
 
 <h2>이산값(확률) VS 실수값(확률밀도)</h2>
 
-|                    |                         이산값(확률)                         |                       실수값(확률밀도)                       |
-| ------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 주변분포           |               $$P(X=a) = \sum_{y} P(X=a,Y=y)$$               |     $$f_{X}(a) = \int^{\infty}_{-\infty}f_{X,Y}(a,y)dy$$     |
-| 조건부분포         | $$P(Y=b \mid X=a) \equiv \frac{P(X=a,Y=b)}{P(X=a)} \\ P(X=a,Y=b) = P(Y=b \mid X=a) P(X=a)$$ | $$f_{Y \mid X}(b \mid a) \equiv \frac{f_{X,Y}(a,b)}{f_{X}(a)} \\ f_{X,Y}(a,b) = f_{Y \mid X} (b \mid a)f_{X}(a)$$ |
-| 베이즈 공식        | $$P(X=a \mid Y=b) = \frac{P(Y=b \mid X=a)P(X=a)}{\sum_{x}P(Y=b \mid X=x)P(X=x)}$$ | $$f_{X \mid Y} (a \mid b) = \frac{f_{X \mid Y}(b \mid a)f_{X}(a)}{\int_{-\infty}^{\infty}f_{X \mid Y}(b \mid x)f_{X}(x)dx}$$ |
-| 독립성의 다른 표현 | 1. $$P(Y=b \mid X=a)$$가 $$a$$와 상관없다. <br> 2. $$P(Y=b \mid X=a) = P(Y=b)$$ <br>3. $$P(X=a, Y = 여러 가지)$$의 비가 $$a$$에 관계없이 일정하다.<br>4. $$P(X=a, Y=b) = P(X=a)P(Y=b)$$<br>5. $$P(X=a,Y=b) = g(a)h(b)$$의 형태 | 1. $$f_{Y \mid X} (b \mid a)$$가 $$a$$와 상관없다.<br>2. $$f_{Y \mid X} (b \mid a) = f_{Y}(b)$$<br>3. $$f_{X,Y} (a, 여러가지)$$의 비가 $$a$$에 관계없이 일정하다. <br>4. $$f_{X,Y}(a,b) = f_{X}(a)f_{Y}(b)$$ <br>5. $$f_{X,Y}(a,b) = g(a)h(b)$$의 형태 |
-| 기댓값             | 1. $$E[X] \equiv X(w) 그래프의 \ 부피$$ <br>2. $$E[X] = \sum_{x} xP(X=x)$$<br>3. $$E[g(X)] = \sum_{x}g(x)P(X=x)$$<br>4. $$E[h(X,Y)] = \sum_{y} \sum_{x} h(x,y) P(X=x,Y=y)$$<br>5. $$E[aX+b] = aE[X] +b$$ | 1. 동일<br>2. $$E[X] = \int^{\infty}_{-\infty} xf_{X}(x)dx$$<br>3. $$E[g(X)] = \int^{\infty}_{-\infty} g(x)f_{X}(x)dx$$<br>4. $$E[h(X,Y)] = \int^{\infty}_{-\infty}h(x,y)f_{X,Y}(x,y)dxdy$$<br> |
-| 분산               | 1. $$V[X] \equiv E[(X-\mu)^2], \ \ \mu \equiv E[X]$$<br>2. $$V[aX+b]=a^2 V[X]$$<br> |                      1. 동일<br>2. 동일                      |
-| 표준편차           | 1. $$\sigma_{X} \equiv \sqrt{V[X]}$$<br>2. $$\sigma_{aX+b} = \begin{vmatrix}a\end{vmatrix} \sigma_{X}$$<br> |                    1. 동일<br>2. 동일<br>                    |
-| 조건부 기댓값      |    1. $$E[Y \mid X = a] \equiv \sum_{b}bP(Y=b \mid X=a)$$    | 1. $$E[Y \mid X =a] \equiv \int^{\infty}_{-\infty} yf_{Y}(y \mid X=a) dy$$ |
-| 조건부 분산        |    1. $$V[Y \mid X =a] \equiv E[(Y-\mu(a))^2 \mid X=a]$$     |                             동일                             |
+| $$\ \ \ \ \ \ \ \ $$ |                         이산값(확률)                         |                       실수값(확률밀도)                       |
+| -------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 주변분포             |               $$P(X=a) = \sum_{y} P(X=a,Y=y)$$               |     $$f_{X}(a) = \int^{\infty}_{-\infty}f_{X,Y}(a,y)dy$$     |
+| 조건부분포           | $$P(Y=b \mid X=a) \equiv \frac{P(X=a,Y=b)}{P(X=a)} \\ P(X=a,Y=b) = P(Y=b \mid X=a) P(X=a)$$ | $$f_{Y \mid X}(b \mid a) \equiv \frac{f_{X,Y}(a,b)}{f_{X}(a)} \\ f_{X,Y}(a,b) = f_{Y \mid X} (b \mid a)f_{X}(a)$$ |
+| 베이즈 공식          | $$P(X=a \mid Y=b) = \frac{P(Y=b \mid X=a)P(X=a)}{\sum_{x}P(Y=b \mid X=x)P(X=x)}$$ | $$f_{X \mid Y} (a \mid b) = \frac{f_{X \mid Y}(b \mid a)f_{X}(a)}{\int_{-\infty}^{\infty}f_{X \mid Y}(b \mid x)f_{X}(x)dx}$$ |
+| 독립성의 다른 표현   | 1. $$P(Y=b \mid X=a)$$가 $$a$$와 상관없다. <br> 2. $$P(Y=b \mid X=a) = P(Y=b)$$ <br>3. $$P(X=a, Y = 여러 가지)$$의 비가 $$a$$에 관계없이 일정하다.<br>4. $$P(X=a, Y=b) = P(X=a)P(Y=b)$$<br>5. $$P(X=a,Y=b) = g(a)h(b)$$의 형태 | 1. $$f_{Y \mid X} (b \mid a)$$가 $$a$$와 상관없다.<br>2. $$f_{Y \mid X} (b \mid a) = f_{Y}(b)$$<br>3. $$f_{X,Y} (a, 여러가지)$$의 비가 $$a$$에 관계없이 일정하다. <br>4. $$f_{X,Y}(a,b) = f_{X}(a)f_{Y}(b)$$ <br>5. $$f_{X,Y}(a,b) = g(a)h(b)$$의 형태 |
+| 기댓값               | 1. $$E[X] \equiv X(w) 그래프의 \ 부피$$ <br>2. $$E[X] = \sum_{x} xP(X=x)$$<br>3. $$E[g(X)] = \sum_{x}g(x)P(X=x)$$<br>4. $$E[h(X,Y)] = \sum_{y} \sum_{x} h(x,y) P(X=x,Y=y)$$<br>5. $$E[aX+b] = aE[X] +b$$ | 1. 동일<br>2. $$E[X] = \int^{\infty}_{-\infty} xf_{X}(x)dx$$<br>3. $$E[g(X)] = \int^{\infty}_{-\infty} g(x)f_{X}(x)dx$$<br>4. $$E[h(X,Y)] = \int^{\infty}_{-\infty}h(x,y)f_{X,Y}(x,y)dxdy$$<br> |
+| 분산                 | 1. $$V[X] \equiv E[(X-\mu)^2], \ \ \mu \equiv E[X]$$<br>2. $$V[aX+b]=a^2 V[X]$$<br> |                      1. 동일<br>2. 동일                      |
+| 표준편차             | 1. $$\sigma_{X} \equiv \sqrt{V[X]}$$<br>2. $$\sigma_{aX+b} = \begin{vmatrix}a\end{vmatrix} \sigma_{X}$$<br> |                    1. 동일<br>2. 동일<br>                    |
+| 조건부 기댓값        |    1. $$E[Y \mid X = a] \equiv \sum_{b}bP(Y=b \mid X=a)$$    | 1. $$E[Y \mid X =a] \equiv \int^{\infty}_{-\infty} yf_{Y}(y \mid X=a) dy$$ |
+| 조건부 분산          |    1. $$V[Y \mid X =a] \equiv E[(Y-\mu(a))^2 \mid X=a]$$     |                             동일                             |
 
 <br>
 
@@ -130,7 +130,7 @@ $$
 
 <h4>ex1)</h4>
 
-Q. 확률변수 $$X$$의 확률밀도함수 f_{X}(x)가 다음 식으로 주어질 때 $$E[X]$$와 $$E[X^2]$$의 값
+Q1. 확률변수 $$X$$의 확률밀도함수 f_{X}(x)가 다음 식으로 주어질 때 $$E[X]$$와 $$E[X^2]$$의 값
 
 
 $$
@@ -138,7 +138,7 @@ f_{X}(x) = \begin{cases}2x \ (0 \le x \le 1) \\ 0 \ \ \ (기타) \end{cases}
 $$
 
 
-A.
+A1.
 
 
 $$
@@ -147,14 +147,18 @@ E[X^2] = E[g(X)] = \int^{\infty}_{-\infty} g(x)f_{X}(x)dx = \int^{1}_{0}x^2(2x)d
 $$
 <br>
 
-Q. 다음의 성질을 적분 계산으로부터 유도하라
+<br>
+
+<br>
+
+Q2. 다음의 성질을 적분 계산으로부터 유도하라
 
 - $$E[3X] = 3E[X]$$.
 - $$E[X+3] = E[X]+3 $$.
 
 
 
-A.
+A2.
 
 
 $$
@@ -164,8 +168,14 @@ $$
 
 
 
+<br>
 
-Q. 확률변수 $$X$$의 확률밀도함수 $$f_{X}(x)가 다음 식으로 주어질 때 분산 $$V[X]$$와 표준편차 $$\sigma$$를 구하시오.
+<br>
+
+<br>
+
+
+Q3. 확률변수 $$X$$의 확률밀도함수 $$f_{X}(x)가 다음 식으로 주어질 때 분산 $$V[X]$$와 표준편차 $$\sigma$$를 구하시오.
 
 
 $$
@@ -173,7 +183,7 @@ f_{X}(x)= \begin{cases}2x \ (0 \le x \le 1) \\ 0 \ \ \ (기타) \end{cases}
 $$
 
 
-A.
+A3.
 
 
 
