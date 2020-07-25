@@ -1,5 +1,5 @@
 ---
-title: 결합분포, 주변분포, 조건부분포
+title: 확률밀도의 결합분포, 주변분포, 조건부분포
 author: Monch
 category: Statistics
 layout: post
