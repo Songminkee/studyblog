@@ -1,11 +1,9 @@
 ---
 title: 영상피라미드
 author: Monch
-category: cv
+category: Computer Vision
 layout: post
 ---
-
-[목록으로가기](https://songminkee.github.io/cv/2030/05/03/list.html)
 
 [코드링크](https://github.com/Songminkee/computer_vision/blob/master/image_pyramid.ipynb)
 
