@@ -13,6 +13,7 @@ layout: post
 이 방법에서는 아래의 헤시안 행렬(Hessian matrix)를 사용한다.
 
 
+
 $$
 \mathbf{H} = \begin{pmatrix}d_{yy} & d_{yx} \\ d_{yx} & d_{xx} \end{pmatrix}
 $$
