@@ -1,8 +1,19 @@
  {% include mathjax_support.html %}
 <head>
   <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},{displayMath: [['$$','$$'],['\[','\]']]}});
-    </script>
+    MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+       }
+    },
+    tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$'] ],
+    processEscapes: true,
+    }
+  });
+  </script>
     <script type="text/javascript" src="http://cdn.mathjax.org/math...">
     </script>
   <link href="https://gmpg.org/xfn/11" rel="profile" />
