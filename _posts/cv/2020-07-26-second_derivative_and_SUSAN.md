@@ -84,7 +84,7 @@ $$
 
 
 
-<img src="{{'assets/picture/susan_filter.jpg' | relative_url}}">
+<img src="{{'assets/picture/SUSAN_filter.jpg' | relative_url}}">
 
 
 
