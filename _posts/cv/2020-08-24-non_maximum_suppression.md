@@ -40,7 +40,7 @@ plt.show()
 
 
 
-<img src="{{'assets/picture/nms_01.jpg' | relative_url}}">
+<img src="{{'assets/picture/nms_1.jpg' | relative_url}}">
 
 
 
@@ -94,7 +94,7 @@ plt.show()
 
 
 
-<img src="{{'assets/picture/nms_02.jpg' | relative_url}}">
+<img src="{{'assets/picture/nms_2.jpg' | relative_url}}">
 
 
 
