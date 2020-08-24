@@ -20,9 +20,11 @@ layout: post
 표준 정규분포는 정규분포의 가장 대표적인 형태이며 아래의 식으로 표현되고 평균이 0이고 분산이 1인 정규분포를 뜻한다.
 
 
+
 $$
 f(z) = \frac{1}{\sqrt{2 \pi}} exp \left( -\frac{z^2}{2}\right)
 $$
+
 
 
 먼저 exp 안의 2를 임의의 상수로 두고 z에 대해 생각을 해보자. 우리는 다음과 같은 사실을 알 수 있다.
@@ -54,9 +56,11 @@ $$
 가우스 적분에 의해
 
 
+
 $$
-\int^{\infin}_{-\infin} exp \left( -\frac{z^2}{2}\right)dz = \sqrt{2\pi}
+\int^{\infty}_{-\infty} exp \left( -\frac{z^2}{2}\right)dz = \sqrt{2\pi}
 $$
+
 
 
 이 성립하므로 확률에 맞춰 적분이 1이 되도록 하기 위해 $$1/(\sqrt{2\pi})$$가 등장했다.
@@ -64,11 +68,14 @@ $$
 exp에 포함된 분모 2는 분산을 1로 맞추기 위해 설정된 값이다. 참고로 분산의 식은 아래와 같다.
 
 
+
 $$
-V\left[ Z\right] = \int^{\infin}_{-\infin} z^{2} \frac{1}{\sqrt{2\pi}}exp \left( -\frac{z^2}{2}\right) dz
+V\left[ Z\right] = \int^{\infty}_{-\infty} z^{2} \frac{1}{\sqrt{2\pi}}exp \left( -\frac{z^2}{2}\right) dz
 $$
 
+<br>
 
+<br>
 
 
 <h2>일반 정규 분포</h2>
@@ -95,17 +102,21 @@ $$
 이를 일반적인 식으로 표현하면 아래와 같다.
 
 
+
 $$
 f_{X}(x) = \frac{1}{\sqrt{2 \pi \sigma^2}}exp \left( -\frac{(x-\mu)^2}{2 \sigma^2}\right)
 $$
 
 
+
 이렇게 구구절절하게 식으로 표현을 하는 경우는 거의 없고 다음과 같이 정규분포를 표현한다.
+
 
 
 $$
 X \sim N(\mu, \sigma^2)
 $$
+
 
 
 여기서 $$\mu$$는 평균, $$\sigma$$는 표준편차를 뜻한다. 처음에 설명했던 표준정규분포는 $$X \sim N(0,1)$$로 표현할 수 있다.
@@ -127,10 +138,13 @@ A.
 일반정규분포 구하라는 거다.
 
 
+
 $$
 E \left[ X\right] = E \left[ \sigma Z + \mu \right] = \sigma E \left[ Z \right]+\mu = \mu \\
 V \left[ X \right] = V \left[ \sigma Z + \mu \right] = \sigma^{2}V \left[ Z \right] = \sigma^2
 $$
+
+
 <br>
 
 <br>
@@ -142,6 +156,8 @@ Q. 표준정규분포를 $$\mu$$만큼 이동하고 $$\sigma$$ 배 했을 때 $$
 <br>
 
 A.
+
+
 $$
 \sigma \left( Z + \mu\right) = \sigma Z + \sigma \mu \sim N \left( \sigma \mu , \sigma^2 \right)
 $$
@@ -160,11 +176,15 @@ Q. $$ X_{1},X_{2},X_{3},X_{4},X_{5}$$가 독립이고, 모두 정규분포 $$N \
 <br>
 
 A. 
+
+
 $$
 E \left[ Y\right] = E \left[ \frac{X_{1}+X_{2}+X_{3}+X_{4}+X_{5}}{5}\right] = \\ \frac{E\left[X_{1}\right]+E\left[X_{2}\right]+E\left[X_{3}\right]+E\left[X_{4}\right]+E\left[X_{5}\right]}{5} = \frac{\mu+\mu+\mu+\mu+\mu}{5}=\mu \\ 
 V \left[ Y\right] = V \left[ \frac{X_{1}+X_{2}+X_{3}+X_{4}+X_{5}}{5}\right] = \\ \frac{V\left[X_{1}\right]+V\left[X_{2}\right]+V\left[X_{3}\right]+V\left[X_{4}\right]+V\left[X_{5}\right]}{5^2} = \frac{\sigma^2+\sigma^2+\sigma^2+\sigma^2+\sigma^2}{5} = \frac{\sigma^2}{5} \\
 \therefore Y \sim N(\mu,\sigma^2 / 5)
 $$
+
+
 <br>
 
 <br>
@@ -176,10 +196,13 @@ Q. $$X \sim N(\mu, \sigma^2)$$에 대해 $$X$$가 $$\mu \pm k \sigma$$의 범주
 <br>
 
 A. 
+
+
 $$
 P(\mu -2\sigma) \le X \le \mu + 2\sigma \approx 0.954 \\
 P(\mu -3\sigma) \le X \le \mu + 3\sigma \approx 0.997
 $$
+
 
 
 사실 이 값은 계산보다는 [참고](https://en.wikipedia.org/wiki/Standard_normal_table)에 가깝다. 위의 값들은 유명하므로 두개 정도만 알고 있고 나머지 값은 그때그때 찾아보길 권한다.
