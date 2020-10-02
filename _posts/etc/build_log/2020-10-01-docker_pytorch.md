@@ -176,6 +176,8 @@ $ docker attach # 실행중인 컨테이너 bash에 접속 (run -it 느낌)
 $ docker rm 컨테이너명 # 컨테이너 삭제
 $ docker images # 현재 내려받은 이미지들 확인
 $ docker rmi 이미지명:태그 # 해당 이미지 삭제
+$ docker -v host_directory:container_directory # 내 디렉토리와 컨테이너 디렉토리 연결
+$ docker --shm-size=8G # 공유 메모리를 8G로 설정
 ```
 
 <br>
