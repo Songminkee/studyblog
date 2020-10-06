@@ -125,7 +125,7 @@ W = \frac{X-\mu}{\sigma}
 1) 원래 $$X$$의 기대값 $$\mu$$와 표준편차 $$\sigma$$를 구한다.
    
 2) 먼저 전체를 시프트(평행이동)해서 기대값이 0이 되도록 조절한다.  
-   $$tilde{X} \equiv X-\mu \qquad \rightarrow E[\tilde{X}] =0, V[\tilde{X}]=\sigma^2$$.
+   $$\tilde{X} \equiv X-\mu \qquad \rightarrow E[\tilde{X}] =0, V[\tilde{X}]=\sigma^2$$.
 
    3) 이어서 스케일링(크기 변환)으로 폭을 조절하고 표준편차를 1로 한다.
    
@@ -165,3 +165,6 @@ W = \frac{X-\mu}{\sigma}
 
    $$(X와 \ a의 \ 제곱 \ 오차의 \ 기대값) = (기대값의 \ 제곱 \ 오차)+(분산) \\
    = (편향에 \ 의한 \ 오차)+(편차에 \ 의한 \ 오차)$$
+
+
+
