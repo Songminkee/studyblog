@@ -30,7 +30,7 @@ Faster R-CNN은 다음과 같이 두개의 module로 나뉜다.
 
 
 
-RPN은 마지막 conv layer의 output에서 $$n \times n$$ 크기의 conv layer 연산을 수행한다(크기를 보존하기 위해 padding을 한다). 이후 $$ 1 \tiems 1 \times (2 \times k) $$, $$ 1 \times 1 \times (4 \times k)$$ 연산을 병렬로 수행한다. 여기서 $$k$$는 anchor box의 수이다. 본 논문에서는 n을 3으로 설정했고 3개의 비율(1:1,1:2,2:1)과 3개의 크기(128,256,512)로 총 9개의 anchor box를 정의했다(k=9).
+RPN은 마지막 conv layer의 output에서 $$n \times n$$ 크기의 conv layer 연산을 수행한다(크기를 보존하기 위해 padding을 한다). 이후 $$ 1 \times 1 \times (2 \times k) $$, $$ 1 \times 1 \times (4 \times k)$$ 연산을 병렬로 수행한다. 여기서 $$k$$는 anchor box의 수이다. 본 논문에서는 n을 3으로 설정했고 3개의 비율(1:1,1:2,2:1)과 3개의 크기(128,256,512)로 총 9개의 anchor box를 정의했다(k=9).
 
 
 
