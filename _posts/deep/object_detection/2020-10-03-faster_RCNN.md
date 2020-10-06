@@ -30,7 +30,7 @@ Faster R-CNN은 다음과 같이 두개의 module로 나뉜다.
 
 
 
-RPN은 마지막 conv layer의 output에서 $$n \times n$$ 크기의 conv layer 연산을 수행한다(크기를 보존하기 위해 padding을 한다). 이후 $$ 1 \tiems 1 \tiems (2 \times k) $$, $$ 1 \tiems 1 \tiems (4 \times k)$$ 연산을 병렬로 수행한다. 여기서 $$k$$는 anchor box의 수이다. 본 논문에서는 n을 3으로 설정했고 3개의 비율(1:1,1:2,2:1)과 3개의 크기(128,256,512)로 총 9개의 anchor box를 정의했다(k=9).
+RPN은 마지막 conv layer의 output에서 $$n \times n$$ 크기의 conv layer 연산을 수행한다(크기를 보존하기 위해 padding을 한다). 이후 $$ 1 \tiems 1 \times (2 \times k) $$, $$ 1 \times 1 \times (4 \times k)$$ 연산을 병렬로 수행한다. 여기서 $$k$$는 anchor box의 수이다. 본 논문에서는 n을 3으로 설정했고 3개의 비율(1:1,1:2,2:1)과 3개의 크기(128,256,512)로 총 9개의 anchor box를 정의했다(k=9).
 
 
 
@@ -53,7 +53,7 @@ $$
 
 
 
-여기서 $$N_{cls}$$는 bach_size이며, $$N_{reg}$$는 모든 anchor의 수이다. 논문에서는 각각 256, (256 x 9)로 설정 되었다. $$\lambda$$는 두 term의 균형을 맞추기 위한 하이퍼 파라미터인데 본 논문에서는 10으로 설정되었다. $$L_{cls}$$는 오브젝트인지 아닌지에 대한 loss이고 $$L_reg$$는 bounding box에 대한 loss이다(Fast R-CNN과 완전 동일). $$L_{cls}$$ 식은 아래와 같다.
+여기서 $$N_{cls}$$는 bach_size이며, $$N_{reg}$$는 모든 anchor의 수이다. 논문에서는 각각 256, (256 x 9)로 설정 되었다. $$\lambda$$는 두 term의 균형을 맞추기 위한 하이퍼 파라미터인데 본 논문에서는 10으로 설정되었다. $$L_{cls}$$는 오브젝트인지 아닌지에 대한 loss이고 $$L_{reg}$$는 bounding box에 대한 loss이다(Fast R-CNN과 완전 동일). $$L_{cls}$$ 식은 아래와 같다.
 
 
 
